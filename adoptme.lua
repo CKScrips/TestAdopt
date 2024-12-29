@@ -1,6 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CKScrips/HubBuild/main/Extras/Global.lua"))()
-VG.DisableConnection(Error)
-VG.DisableConnection(Idled)
+
 repeat wait() until Player.PlayerGui:FindFirstChild("PlayButton",true)
 RunService.Stepped:Connect(function()
     pcall(function()
